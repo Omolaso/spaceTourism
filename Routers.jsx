@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { spaceURLs } from "./URLs";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home, Crew, Destination, Technology, ErrorPage } from "./src/pages";
@@ -28,7 +28,11 @@ const Routers = () => {
     },
   ]);
 
-  return <RouterProvider router={router} />;
+  return (
+    <Suspense fallback={<div>Loading</div>}>
+      <RouterProvider router={router} />
+    </Suspense>
+  );
 };
 
 export default Routers;

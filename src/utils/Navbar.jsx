@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { spaceURLs } from "../../URLs";
-import spaceLogo from "../../assets/shared/logo.svg";
-import hamburger from "../../assets/shared/icon-hamburger.svg";
-import closeIcon from "../../assets/shared/icon-close.svg";
+import spaceLogo from "../assets/shared/logo.svg";
+import hamburger from "../assets/shared/icon-hamburger.svg";
+import closeIcon from "../assets/shared/icon-close.svg";
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
