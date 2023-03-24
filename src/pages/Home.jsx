@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <main
       style={style}
-      className="bg-[url('./src/assets/home/background-home-tablet.jpg')] md:bg-[url('./src/assets/home/background-home-desktop.jpg')]"
+      className="bg-[url('/src/assets/home/background-home-tablet.jpg')] md:bg-[url('/src/assets/home/background-home-desktop.jpg')]"
     >
       <Navbar />
 
