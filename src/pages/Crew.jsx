@@ -6,7 +6,7 @@ const Crew = () => {
   return (
     <main
       style={style}
-      className="bg-[url('./src/assets/crew/background-crew-tablet.jpg')] md:bg-[url('./src/assets/crew/background-crew-desktop.jpg')]"
+      className="bg-[url('/src/assets/crew/background-crew-tablet.jpg')] md:bg-[url('/src/assets/crew/background-crew-desktop.jpg')]"
     >
       <Navbar />
       <section style={bodyStyle}>Crew</section>

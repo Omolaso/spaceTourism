@@ -7,7 +7,7 @@ const ErrorPage = () => {
   const navigate = useNavigate();
 
   return (
-    <main className="flex items-center p-4 justify-center min-h-screen bg-center bg-no-repeat bg-cover bg-[url('../../assets/home/background-home-tablet.jpg')] md:bg-[url('../../assets/home/background-home-desktop.jpg')]">
+    <main className="flex items-center p-4 justify-center min-h-screen bg-center bg-no-repeat bg-cover bg-[url('/src/assets/home/background-home-tablet.jpg')] md:bg-[url('/src/assets/home/background-home-desktop.jpg')]">
       <section className="flex text-blue flex-col gap-5 text-center text-[16px] md:text-[22px]">
         <h1 className="flex text-[20px] md:text-[24px] items-center justify-center">
           Oops! <span>&#129301;</span>

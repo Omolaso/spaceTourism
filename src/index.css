@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Lobster&family=Poppins&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
   box-sizing: border-box;
+  font-family: Bellefair serif;
 }
 
 button:focus {

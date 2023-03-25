@@ -6,7 +6,7 @@ const Technology = () => {
   return (
     <main
       style={style}
-      className="bg-[url('./src/assets/technology/background-technology-tablet.jpg')] md:bg-[url('./src/assets/technology/background-technology-desktop.jpg')]"
+      className="bg-[url('/src/assets/technology/background-technology-tablet.jpg')] md:bg-[url('/src/assets/technology/background-technology-desktop.jpg')]"
     >
       <Navbar />
       <section style={bodyStyle}>Tech</section>
