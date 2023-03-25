@@ -9,7 +9,7 @@ export const style = {
 export const bodyStyle = {
   display: "flex",
   minHeight: "87vh",
-  alignItems: "center",
+  // alignItems: "center",
   justifyContent: "center",
   padding: "1rem",
 };

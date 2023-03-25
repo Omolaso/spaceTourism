@@ -9,17 +9,17 @@ const Home = () => {
   return (
     <main
       style={style}
-      className="bg-[url('/src/assets/home/background-home-tablet.jpg')] md:bg-[url('/src/assets/home/background-home-desktop.jpg')]"
+      className="bg-[url('/src/assets/home/background-home-tablet.jpg')] lg:bg-[url('/src/assets/home/background-home-desktop.jpg')]"
     >
       <Navbar />
 
       <section
         style={bodyStyle}
-        className="mx-auto w-full md:max-w-[1000px] lg:max-w-[1200px]"
+        className="items-start lg:items-center mx-auto w-full md:max-w-[1000px] lg:max-w-[1200px]"
       >
-        <div className="flex md:flex-row flex-col flex-wrap gap-10 md:gap-5 items-center justify-between w-full min-h-full">
-          <div className="flex w-full max-w-[500px] flex-col items-center text-center md:text-left">
-            <p className="text-[20px] md:text-[28px] self-center md:self-start">
+        <div className="flex lg:flex-row flex-col flex-wrap gap-10 md:gap-5 md:py-0 py-5 items-center justify-between w-full min-h-[50vh]">
+          <div className="styled-animate-left flex w-full max-w-[500px] flex-col items-center text-center lg:text-left">
+            <p className="text-[20px] md:text-[28px] self-center lg:self-start">
               SO YOU WANT TO TRAVEL TO
             </p>
             <h1 className="text-[100px] md:text-[150px] w-full text-white">
@@ -36,7 +36,7 @@ const Home = () => {
           <button
             type="button"
             onClick={() => navigate(spaceURLs.destination)}
-            className="max-w-[150px] font-medium text-[20px] md:text-[28px] md:max-w-[200px] min-h-[150px] md:min-h-[200px] rounded-full duration-300 ease-in-out active:scale-90 hover:shadow-[rgba(0,0,0,0.3)] hover:shadow-[0px_0px_10px_50px_] bg-white text-black w-full"
+            className="styled-animate-right max-w-[150px] font-medium text-[20px] md:text-[28px] md:max-w-[200px] min-h-[150px] md:min-h-[200px] rounded-full duration-300 ease-in-out active:scale-90 hover:shadow-[rgba(0,0,0,0.3)] hover:shadow-[0px_0px_10px_50px_] bg-white text-black w-full"
           >
             EXPLORE
           </button>

@@ -1,14 +1,54 @@
-@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Lobster&family=Poppins&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Lobster&family=Poppins&display=swap"); */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow-x: hidden;
+}
+
 * {
   box-sizing: border-box;
-  font-family: Bellefair serif;
+  /* font-family: Bellefair serif; */
+  /* font-family: Poppins; */
 }
 
 button:focus {
   outline: none;
+}
+
+.styled-animate-left {
+  animation: fromLeft 1.5s ease-in-out forwards;
+  position: relative;
+  left: -100%;
+}
+
+@keyframes fromLeft {
+  to {
+    left: 0;
+  }
+}
+
+.styled-animate-right {
+  animation: fromRight 1.5s ease-in-out forwards;
+  position: relative;
+  right: -100%;
+}
+
+@keyframes fromRight {
+  to {
+    right: 0;
+  }
+}
+
+.styled-animate-opaque {
+  animation: opaque 1.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes opaque {
+  to {
+    opacity: 1;
+  }
 }

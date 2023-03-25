@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <main className="flex flex-row items-center justify-between min-h-[10vh]">
+      <main className="styled-animate-opaque flex flex-row items-center justify-between min-h-[10vh]">
         <Link to={spaceURLs.landingPage} className="p-4">
           <img src={spaceLogo} alt="LOGO" className="max-w-[40px]" />
         </Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
                 to={spaceURLs.crew}
                 className="flex flex-row items-center justify-center gap-1 min-h-[60px]"
               >
-                <span className="text-white">03</span>
+                <span className="text-white">02</span>
                 <span className="text-blue">Crew</span>
               </Link>
             </li>
@@ -77,7 +77,7 @@ const Navbar = () => {
                 to={spaceURLs.tech}
                 className="flex flex-row items-center justify-center gap-1 min-h-[60px]"
               >
-                <span className="text-white">04</span>
+                <span className="text-white">03</span>
                 <span className="text-blue">Technology</span>
               </Link>
             </li>
@@ -133,7 +133,7 @@ const Navbar = () => {
           onClick={() => setSidebar(false)}
         >
           <Link to={spaceURLs.crew} className="flex flex-row gap-3">
-            <span className="text-white">03</span>
+            <span className="text-white">02</span>
             <span className="text-blue">Crew</span>
           </Link>
         </li>
@@ -144,7 +144,7 @@ const Navbar = () => {
             className="flex flex-row gap-3"
             onClick={() => setSidebar(false)}
           >
-            <span className="text-white">04</span>
+            <span className="text-white">03</span>
             <span className="text-blue">Technology</span>
           </Link>
         </li>
