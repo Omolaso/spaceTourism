@@ -4,9 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
 
 body {
   overflow-x: hidden;
@@ -54,5 +54,16 @@ button:focus {
 @keyframes opaque {
   to {
     opacity: 1;
+  }
+}
+
+.styled-suspense {
+  animation: suspense 1s linear infinite;
+  transform: scale(0.8);
+}
+
+@keyframes suspense {
+  to {
+    transform: scale(1);
   }
 }

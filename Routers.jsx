@@ -38,7 +38,7 @@ const Routers = () => {
     <Suspense
       fallback={
         <div className="min-h-screen flex items-center justify-center bg-black">
-          <img src={logo} alt="Loading..." className="animate-spin" />
+          <img src={logo} alt="Loading..." className="styled-suspense" />
         </div>
       }
     >

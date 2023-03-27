@@ -23,7 +23,7 @@ const Destination = () => {
           </h2>
           <div className="flex flex-col lg:flex-row items-center gap-4 justify-between w-full">
             <img
-              src={destinations[currentIndex].images.png}
+              src={destinations[currentIndex].images.webp}
               alt={destinations[currentIndex].name}
               className="styled-animate-opaque max-w-[300px] lg:max-w-[420px] flex-1"
             />
@@ -47,7 +47,7 @@ const Destination = () => {
               <h1 className="styled-animate-opaque text-[80px] md:text-[100px]">
                 {destinations[currentIndex].name}
               </h1>
-              <p className="styled-animate-opaque text-[18px] md:text-[22px]">
+              <p className="styled-animate-opaque text-[18px] md:text-[20px]">
                 {destinations[currentIndex].description}
               </p>
               <div className="styled-animate-opaque mt-3 border-t border-t-white flex flex-col md:flex-row text-[18px] md:text-[22px] items-center justify-between w-full gap-4 p-4">

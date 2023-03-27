@@ -18,7 +18,7 @@ const Crew = () => {
           <h1 className="styled-animate-left text-[22px] md:text-[28px] lg:self-start self-center">
             MEET YOUR CREW
           </h1>
-          <div className="flex h-full flex-col md:flex-col-reverse lg:flex-row w-full gap-5 items-center justify-between">
+          <div className="flex h-full flex-col-reverse md:flex-col lg:flex-row w-full gap-5 items-center justify-between">
             <div className="styled-animate-opaque flex flex-1 flex-col items-center lg:items-start gap-5">
               <p className="text-[18px] md:text-[22px]">
                 {crew[currentIndex].role.toUpperCase()}
