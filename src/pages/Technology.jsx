@@ -54,7 +54,7 @@ const Technology = () => {
               className="hidden lg:block max-h-[500px] flex-1"
             />
             <img
-              src={technology[currentIndex].images.portrait}
+              src={technology[currentIndex].images.landscape}
               alt={technology[currentIndex].name}
               className="block lg:hidden flex-1 md:min-w-[768px] md:max-h-[350px] border"
             />

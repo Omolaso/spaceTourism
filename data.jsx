@@ -1,4 +1,17 @@
 import moon from "./src/assets/destination/image-moon.png";
+import mars from "./src/assets/destination/image-mars.png";
+import europa from "./src/assets/destination/image-europa.png";
+import titan from "./src/assets/destination/image-titan.png";
+import douglas from "./src/assets/crew/image-douglas-hurley.png";
+import mark from "./src/assets/crew/image-mark-shuttleworth.png";
+import victor from "./src/assets/crew/image-victor-glover.png";
+import ansari from "./src/assets/crew/image-anousheh-ansari.webp";
+import launchVehincle from "./src/assets/technology/image-launch-vehicle-portrait.jpg";
+import launchVehincle2 from "./src/assets/technology/image-launch-vehicle-landscape.jpg";
+import spaceport from "./src/assets/technology/image-spaceport-portrait.jpg";
+import spaceport2 from "./src/assets/technology/image-spaceport-landscape.jpg";
+import spaceCapsule from "./src/assets/technology/image-space-capsule-portrait.jpg";
+import spaceCapsule2 from "./src/assets/technology/image-space-capsule-landscape.jpg";
 
 export const data = {
   destinations: [
@@ -16,8 +29,8 @@ export const data = {
     {
       name: "Mars",
       images: {
-        png: "./src/assets/destination/image-mars.png",
-        webp: "./src/assets/destination/image-mars.webp",
+        png: `${mars}`,
+        webp: `${mars}`,
       },
       description:
         "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
@@ -27,8 +40,8 @@ export const data = {
     {
       name: "Europa",
       images: {
-        png: "./src/assets/destination/image-europa.png",
-        webp: "./src/assets/destination/image-europa.webp",
+        png: `${europa}`,
+        webp: `${europa}`,
       },
       description:
         "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
@@ -38,8 +51,8 @@ export const data = {
     {
       name: "Titan",
       images: {
-        png: "./src/assets/destination/image-titan.png",
-        webp: "./src/assets/destination/image-titan.webp",
+        png: `${titan}`,
+        webp: `${titan}`,
       },
       description:
         "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
@@ -51,8 +64,8 @@ export const data = {
     {
       name: "Douglas Hurley",
       images: {
-        png: "./src/assets/crew/image-douglas-hurley.png",
-        webp: "./src/assets/crew/image-douglas-hurley.webp",
+        png: `${douglas}`,
+        webp: `${douglas}`,
       },
       role: "Commander",
       bio: "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.",
@@ -60,8 +73,8 @@ export const data = {
     {
       name: "Mark Shuttleworth",
       images: {
-        png: "./src/assets/crew/image-mark-shuttleworth.png",
-        webp: "./src/assets/crew/image-mark-shuttleworth.webp",
+        png: `${mark}`,
+        webp: `${mark}`,
       },
       role: "Mission Specialist",
       bio: "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.",
@@ -69,8 +82,8 @@ export const data = {
     {
       name: "Victor Glover",
       images: {
-        png: "./src/assets/crew/image-victor-glover.png",
-        webp: "./src/assets/crew/image-victor-glover.webp",
+        png: `${victor}`,
+        webp: `${victor}`,
       },
       role: "Pilot",
       bio: "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.",
@@ -78,8 +91,8 @@ export const data = {
     {
       name: "Anousheh Ansari",
       images: {
-        png: "./src/assets/crew/image-anousheh-ansari.png",
-        webp: "./src/assets/crew/image-anousheh-ansari.webp",
+        png: `${ansari}`,
+        webp: `${ansari}`,
       },
       role: "Flight Engineer",
       bio: "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.",
@@ -89,8 +102,8 @@ export const data = {
     {
       name: "Launch vehicle",
       images: {
-        portrait: "./src/assets/technology/image-launch-vehicle-portrait.jpg",
-        landscape: "./src/assets/technology/image-launch-vehicle-landscape.jpg",
+        portrait: `${launchVehincle}`,
+        landscape: `${launchVehincle2}`,
       },
       description:
         "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!",
@@ -98,8 +111,8 @@ export const data = {
     {
       name: "Spaceport",
       images: {
-        portrait: "./src/assets/technology/image-spaceport-portrait.jpg",
-        landscape: "./src/assets/technology/image-spaceport-landscape.jpg",
+        portrait: `${spaceport}`,
+        landscape: `${spaceport2}`,
       },
       description:
         "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.",
@@ -107,8 +120,8 @@ export const data = {
     {
       name: "Space capsule",
       images: {
-        portrait: "./src/assets/technology/image-space-capsule-portrait.jpg",
-        landscape: "./src/assets/technology/image-space-capsule-landscape.jpg",
+        portrait: `${spaceCapsule}`,
+        landscape: `${spaceCapsule2}`,
       },
       description:
         "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.",
