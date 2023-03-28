@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../utils/Navbar";
 import { style, bodyStyle } from "../utils/BgStyle";
-import data from "../../data.json";
+import { data } from "../../data";
 
 const Destination = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { style } from "../utils/BgStyle";
 import Navbar from "../utils/Navbar";
-import data from "../../data.json";
+import { data } from "../../data";
 
 const Crew = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
